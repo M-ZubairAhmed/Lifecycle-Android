@@ -53,4 +53,28 @@ public class SecondActivity extends AppCompatActivity {
         super.onDestroy();
         Toast.makeText(this, "Activity 2 Destroy", Toast.LENGTH_SHORT).show();
     }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Toast.makeText(this,"Activity 2 Restart",Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Toast.makeText(this,"Activity 2 Back Pressed",Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle state) {
+        super.onSaveInstanceState(state);
+        Toast.makeText(this,"Activity 2 onSaveInstanceState called" ,Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        Toast.makeText(this,"Activity 2 onRestoreInstanceState called",Toast.LENGTH_SHORT).show();
+    }
 }
