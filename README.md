@@ -1,5 +1,5 @@
 ## Activity Lifecycle Explained
-![Imgur](http://i.imgur.com/tMdSvj4.png)
+![Activity lifecycle](https://i.imgur.com/tMdSvj4.png)
 <br>
 *courtesy : google*
 
