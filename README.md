@@ -1,7 +1,7 @@
 ## Activity Lifecycle Explained
-![Activity lifecycle](https://i.imgur.com/tMdSvj4.png)
-<br>
-*courtesy : google*
+<p align="center">
+  <img src="https://i.imgur.com/tMdSvj4.png" alt="Activity Lifecycle by Google developers docs"/>
+</p>
 
 ### Case 1
 #### Activity 1 starting for first time
