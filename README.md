@@ -18,3 +18,5 @@ Activity 1:
 - onRestart()  [*optional*]
 - onStart()
 - onResume()
+
+*Under construction*
