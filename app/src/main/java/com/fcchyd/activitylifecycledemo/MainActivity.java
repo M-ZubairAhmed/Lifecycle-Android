@@ -60,4 +60,22 @@ public class MainActivity extends AppCompatActivity {
         super.onRestart();
         Toast.makeText(this,"Activity 1 Restart",Toast.LENGTH_SHORT).show();
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Toast.makeText(this,"Activity 1 Back Pressed",Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle state) {
+        super.onSaveInstanceState(state);
+        Toast.makeText(this,"Activity 1 onSaveInstanceState called" ,Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        Toast.makeText(this,"Activity 1 onRestoreInstanceState called",Toast.LENGTH_SHORT).show();
+    }
 }
