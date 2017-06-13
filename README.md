@@ -1,8 +1,20 @@
-# Lifecycle of Android
-A simple demo android app for visualizing activity and fragment lifecycle.
+## Activity Lifecycle Explained
+![Imgur](http://i.imgur.com/tMdSvj4.png)
+<br>
+*courtesy : google*
 
-## Preview
-assdsdasdf
+### Case 1
+#### Activity 1 starting for first time
 
-### Ok
-assdfadas
+Activity 1 :
+- onCreate()
+- onStart()
+- onResume()
+
+### Case 2
+#### Activity 1 resuming from home screen
+
+Activity 1:
+- onRestart()  [*optional*]
+- onStart()
+- onResume()
